@@ -1,14 +1,19 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://al-1s-blog.pages.dev</id>
-    <title>我的博客</title>
-    <subtitle></subtitle>
+    <title>Al-1s&#39;s Blog</title>
+    <subtitle>个人技术与生活记录</subtitle>
     <icon>https://al-1s-blog.pages.dev/assets/favicon.ico</icon>
     <link href="https://al-1s-blog.pages.dev" />
     <author>
-      <name>John Doe</name>
+      <name>Al-1s</name>
     </author>
     <updated>2025-11-26T08:50:31.473Z</updated>
+    <category term="博客" />
+    <category term=" 技术" />
+    <category term=" 生活" />
+    <category term=" Hexo" />
+    <category term=" ShokaX" />
     <entry>
         <id>https://al-1s-blog.pages.dev/2025/11/26/hello-world/</id>
         <title>Hello World</title>

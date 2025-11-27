@@ -1,17 +1,22 @@
 <?xml version="1.0"?>
 <rss version="2.0">
     <channel>
-        <title>我的博客</title>
-        <subtitle></subtitle>
+        <title>Al-1s&#39;s Blog</title>
+        <subtitle>个人技术与生活记录</subtitle>
         <icon>https://al-1s-blog.pages.dev/assets/favicon.ico</icon>
         <link>https://al-1s-blog.pages.dev</link>
         <author>
-          <name>John Doe</name>
+          <name>Al-1s</name>
         </author>
-        <description>基于 Hexo 与 ShokaX 的博客</description>
+        <description>专注于分享生物信息学、编程技术与个人思考的非营利性个人博客。</description>
         <language>zh-CN</language>
         <pubDate>Wed, 26 Nov 2025 16:50:31 +0800</pubDate>
         <lastBuildDate>Wed, 26 Nov 2025 16:50:31 +0800</lastBuildDate>
+        <category term="博客" />
+        <category term=" 技术" />
+        <category term=" 生活" />
+        <category term=" Hexo" />
+        <category term=" ShokaX" />
         <item>
             <guid isPermalink="true">https://al-1s-blog.pages.dev/2025/11/26/hello-world/</guid>
             <title>Hello World</title>

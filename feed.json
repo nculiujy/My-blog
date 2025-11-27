@@ -1,9 +1,9 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "我的博客",
-    "subtitle": "",
+    "title": "Al-1s's Blog",
+    "subtitle": "个人技术与生活记录",
     "icon": "https://al-1s-blog.pages.dev/assets/favicon.ico",
-    "description": "基于 Hexo 与 ShokaX 的博客",
+    "description": "专注于分享生物信息学、编程技术与个人思考的非营利性个人博客。",
     "home_page_url": "https://al-1s-blog.pages.dev",
     "items": [
         {
