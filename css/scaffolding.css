@@ -20,8 +20,8 @@
 #sidebar .tab .item.active,
 #search-pagination .current .page-number {
   color: var(--grey-0);
-  background-image: linear-gradient(to right, var(--color-pink) 0, var(--color-orange) 100%);
-  box-shadow: 0 0 0.75rem var(--color-pink-a3);
+  background-image: linear-gradient(to right, var(--color-blue) 0, var(--color-aqua) 100%);
+  box-shadow: 0 0 0.75rem rgba(102,166,255,0.3);
 }
 #loading,
 #neko {
@@ -59,8 +59,8 @@
   --color-orange: #ec8c69;
   --color-yellow: #eab700;
   --color-green: #0a7426;
-  --color-aqua: #3e999f;
-  --color-blue: #38a1db;
+  --color-aqua: #8ec5fc;
+  --color-blue: #66a6ff;
   --color-purple: #9d5b8b;
   --color-grey: #869194;
   --color-red-a1: rgba(233,84,107,0.1);
@@ -73,8 +73,8 @@
   --box-bg-shadow: var(--grey-9-a1);
   --text-color: var(--grey-7);
   --header-text-color: var(--grey-0);
-  --primary-color: var(--color-red);
-  --nav-bg: linear-gradient(-225deg, var(--color-cyan-light) 0, var(--color-pink-light) 100%);
+  --primary-color: var(--color-blue);
+  --nav-bg: linear-gradient(-225deg, #e3fdf5 0, #8ec5fc 100%);
 }
 .primary {
   --note-border: #cda0c7;
@@ -3160,7 +3160,7 @@ use.stop-animation {
   width: 100%;
 }
 .with-love {
-  color: #ffc0cb;
+  color: #66a6ff;
   display: inline-block;
   margin: 0 0.3125rem 0 0.125rem;
 }

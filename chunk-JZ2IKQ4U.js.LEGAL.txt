@@ -1,7 +1,6 @@
 Bundled license information:
 
 @vue/shared/dist/shared.esm-bundler.js:
-shokax-uikit/dist/codeblock/codeblock.js:
   /**
   * @vue/shared v3.5.18
   * (c) 2018-present Yuxi (Evan) You and Vue contributors
