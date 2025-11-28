@@ -7,11 +7,22 @@
     "home_page_url": "https://al-1s-blog.pages.dev",
     "items": [
         {
+            "id": "https://al-1s-blog.pages.dev/2025/11/28/GEO-%E8%A1%A5%E5%85%85%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD/",
+            "url": "https://al-1s-blog.pages.dev/2025/11/28/GEO-%E8%A1%A5%E5%85%85%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD/",
+            "title": "GEO-补充文件下载",
+            "date_published": "2025-11-28T13:02:59.000Z",
+            "content_html": "<pre><code>GEO的数据库的补充文件太难下载了！浏览器下载还经常断（恼.... 那我们用python下叭~\n</code></pre>\n<p><img loading=\"lazy\" src=\"GEO%E8%A1%A5%E5%85%85%E6%96%87%E4%BB%B6%E7%A4%BA%E4%BE%8B.png\" alt=\"GEO补充文件示例\" title=\"img-90 center\" /></p>\n<p>因此爱丽丝想到了好工具~ 欸嘿嘿，很方便的噢</p>\n<p>是很厉害的武器，超快speed下载sup工具</p>\n<p><a href=\"https://mp.weixin.qq.com/s/tjzamzkxxi4VvQV71XgnOA\">GEO_Supplementary_file快速下载！</a></p>\n<p>适配？程序稳定性？应该没问题的叭~</p>\n<p><img loading=\"lazy\" src=\"%E6%8B%85%E5%BF%83%E8%84%B8.png\" alt=\"担心脸\" title=\"img-60 center\" /></p>\n",
+            "tags": [
+                "technology",
+                "GEO数据库"
+            ]
+        },
+        {
             "id": "https://al-1s-blog.pages.dev/2025/11/28/%E5%87%BA%E8%B4%A7%E5%BC%80%E5%BF%83%E5%96%B5/",
             "url": "https://al-1s-blog.pages.dev/2025/11/28/%E5%87%BA%E8%B4%A7%E5%BC%80%E5%BF%83%E5%96%B5/",
             "title": "出货开心喵",
             "date_published": "2025-11-28T07:10:09.000Z",
-            "content_html": "<p>这次足足准备了一井欸，出货啦，纪念一下凑齐四小只的截图~女仆装真的赛高欸！</p>\n<p><img loading=\"lazy\" src=\"%E5%9B%BD%E6%9C%8D%E5%87%BA%E8%B4%A71.jpg\" alt=\"国服出货1\" title=\"img-30 center\" /></p>\n<p><img loading=\"lazy\" src=\"%E5%9B%BD%E6%9C%8D%E5%87%BA%E8%B4%A72.jpg\" alt=\"国服出货2\" title=\"img-30 center\" /></p>\n<p><img loading=\"lazy\" src=\"%E5%9B%BD%E6%9C%8D%E5%87%BA%E8%B4%A73.jpg\" alt=\"国服出货3\" title=\"img-30 center\" /></p>\n",
+            "content_html": "<pre><code>这次足足准备了一井欸，出货啦，纪念一下凑齐四小只的截图~女仆装真的赛高欸！\n</code></pre>\n<p><img loading=\"lazy\" src=\"%E5%9B%BD%E6%9C%8D%E5%87%BA%E8%B4%A71.jpg\" alt=\"国服出货1\" title=\"img-30 center\" /></p>\n<p><img loading=\"lazy\" src=\"%E5%9B%BD%E6%9C%8D%E5%87%BA%E8%B4%A72.jpg\" alt=\"国服出货2\" title=\"img-30 center\" /></p>\n<p><img loading=\"lazy\" src=\"%E5%9B%BD%E6%9C%8D%E5%87%BA%E8%B4%A73.jpg\" alt=\"国服出货3\" title=\"img-30 center\" /></p>\n",
             "tags": [
                 "my friends",
                 "蔚蓝档案"
@@ -22,7 +33,7 @@
             "url": "https://al-1s-blog.pages.dev/2025/11/28/%E6%AC%A2%E8%BF%8E%E6%88%90%E4%B8%BA%E4%BC%99%E4%BC%B4%EF%BC%81/",
             "title": "欢迎成为伙伴！",
             "date_published": "2025-11-28T03:21:40.000Z",
-            "content_html": "<p>目前是官服的老师噢！很明显的爱丽丝厨，尤其女仆爱，实在太可爱了！对她有像女儿一样的感情！爱丽丝天下第一可爱！</p>\n<p><img loading=\"lazy\" src=\"ID1.jpg\" alt=\"ID1\" title=\"img-30 center\" /></p>\n<p><img loading=\"lazy\" src=\"ID2.jpg\" alt=\"ID2\" title=\"img-30 center\" /></p>\n<p><img loading=\"lazy\" src=\"ID3.jpg\" alt=\"ID3\" title=\"img-30 center\" /></p>\n",
+            "content_html": "<pre><code>目前是官服的老师噢！很明显的爱丽丝厨，尤其女仆爱，实在太可爱了！对她有像女儿一样的感情！爱丽丝天下第一可爱！\n</code></pre>\n<p><img loading=\"lazy\" src=\"ID1.jpg\" alt=\"ID1\" title=\"img-30 center\" /></p>\n<p><img loading=\"lazy\" src=\"ID2.jpg\" alt=\"ID2\" title=\"img-30 center\" /></p>\n<p><img loading=\"lazy\" src=\"ID3.jpg\" alt=\"ID3\" title=\"img-30 center\" /></p>\n",
             "tags": [
                 "my friends",
                 "蔚蓝档案"
