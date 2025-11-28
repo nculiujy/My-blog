@@ -522,3 +522,94 @@
 .i-gitee:before {
   content: "\e607";
 }
+.md img {
+  max-width: 100%;
+  height: auto;
+}
+.md img[title~="img-25"] {
+  width: 25% !important;
+  height: auto !important;
+}
+.md img[title~="img-33"] {
+  width: 33.33% !important;
+  height: auto !important;
+}
+.md img[title~="img-50"] {
+  width: 50% !important;
+  height: auto !important;
+}
+.md img[title~="img-66"] {
+  width: 66.66% !important;
+  height: auto !important;
+}
+.md img[title~="img-75"] {
+  width: 75% !important;
+  height: auto !important;
+}
+.md img[title~="img-100"] {
+  width: 100% !important;
+  height: auto !important;
+}
+.md img[title~="w-320"] {
+  width: 320px !important;
+  height: auto !important;
+}
+.md img[title~="w-480"] {
+  width: 480px !important;
+  height: auto !important;
+}
+.md img[title~="w-640"] {
+  width: 640px !important;
+  height: auto !important;
+}
+.md img[title~="h-200"] {
+  height: 200px !important;
+  width: auto !important;
+  object-fit: contain;
+}
+.md img[title~="center"] {
+  display: block !important;
+  margin: 1rem auto !important;
+}
+.md img[title~="left"] {
+  float: left !important;
+  margin: 0.5rem 1rem 0.5rem 0 !important;
+  max-width: 50% !important;
+}
+.md img[title~="right"] {
+  float: right !important;
+  margin: 0.5rem 0 0.5rem 1rem !important;
+  max-width: 50% !important;
+}
+.md img[title~="cover"] {
+  object-fit: cover !important;
+}
+.md img[title~="contain"] {
+  object-fit: contain !important;
+}
+#header {
+  height: 45vh;
+}
+#imgs {
+  height: 65vh;
+  min-height: 20rem;
+}
+.md div[data-fit="contain"] img {
+  object-fit: contain !important;
+  height: auto !important;
+}
+.md div[data-fit="cover"] img {
+  object-fit: cover !important;
+}
+.md .img-viewer-wrap span {
+  display: none !important;
+}
+.md img[title~="img-25"],
+.md img[title~="img-33"],
+.md img[title~="img-50"],
+.md img[title~="img-66"],
+.md img[title~="img-75"],
+.md img[title~="img-100"] {
+  object-fit: contain !important;
+  height: auto !important;
+}

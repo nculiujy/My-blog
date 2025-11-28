@@ -562,6 +562,97 @@
 .i-gitee:before {
   content: "\e607";
 }
+.md img {
+  max-width: 100%;
+  height: auto;
+}
+.md img[title~="img-25"] {
+  width: 25% !important;
+  height: auto !important;
+}
+.md img[title~="img-33"] {
+  width: 33.33% !important;
+  height: auto !important;
+}
+.md img[title~="img-50"] {
+  width: 50% !important;
+  height: auto !important;
+}
+.md img[title~="img-66"] {
+  width: 66.66% !important;
+  height: auto !important;
+}
+.md img[title~="img-75"] {
+  width: 75% !important;
+  height: auto !important;
+}
+.md img[title~="img-100"] {
+  width: 100% !important;
+  height: auto !important;
+}
+.md img[title~="w-320"] {
+  width: 320px !important;
+  height: auto !important;
+}
+.md img[title~="w-480"] {
+  width: 480px !important;
+  height: auto !important;
+}
+.md img[title~="w-640"] {
+  width: 640px !important;
+  height: auto !important;
+}
+.md img[title~="h-200"] {
+  height: 200px !important;
+  width: auto !important;
+  object-fit: contain;
+}
+.md img[title~="center"] {
+  display: block !important;
+  margin: 1rem auto !important;
+}
+.md img[title~="left"] {
+  float: left !important;
+  margin: 0.5rem 1rem 0.5rem 0 !important;
+  max-width: 50% !important;
+}
+.md img[title~="right"] {
+  float: right !important;
+  margin: 0.5rem 0 0.5rem 1rem !important;
+  max-width: 50% !important;
+}
+.md img[title~="cover"] {
+  object-fit: cover !important;
+}
+.md img[title~="contain"] {
+  object-fit: contain !important;
+}
+#header {
+  height: 45vh;
+}
+#imgs {
+  height: 65vh;
+  min-height: 20rem;
+}
+.md div[data-fit="contain"] img {
+  object-fit: contain !important;
+  height: auto !important;
+}
+.md div[data-fit="cover"] img {
+  object-fit: cover !important;
+}
+.md .img-viewer-wrap span {
+  display: none !important;
+}
+.md img[title~="img-25"],
+.md img[title~="img-33"],
+.md img[title~="img-50"],
+.md img[title~="img-66"],
+.md img[title~="img-75"],
+.md img[title~="img-100"] {
+  object-fit: contain !important;
+  height: auto !important;
+}
 /* modern-normalize v2.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 *,
 ::before,
@@ -1542,6 +1633,8 @@ body.loaded #brand .pjax,
 html,
 body {
   height: 100%;
+  width: 100%;
+  overscroll-behavior: none;
 }
 body {
   background: linear-gradient(to top, var(--body-bg-shadow) 0, var(--grey-1) 20%) no-repeat bottom;
@@ -1553,7 +1646,7 @@ body {
   overflow: hidden;
 }
 body.loaded {
-  overflow: auto;
+  overflow-y: auto;
 }
 body.loaded #sidebar .panel.active {
   display: block;
@@ -2040,11 +2133,12 @@ main >.inner {
   left: 0;
   width: 100%;
   height: 70vh;
-  min-height: 25rem;
+  min-height: 35rem;
   z-index: -9;
   background-color: #363636;
-  content-visibility: auto;
-  contain-intrinsic-size: 100vw 70vh;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  will-change: transform;
 }
 #imgs li.stop-animation {
   animation-play-state: paused;
@@ -2071,6 +2165,7 @@ main >.inner {
   animation: imageAnimation 36s linear infinite 0s;
   backface-visibility: hidden;
   transform-style: preserve-3d;
+  will-change: opacity, transform;
 }
 #imgs .item:nth-child(2) {
   animation-delay: 6s;
@@ -2204,6 +2299,7 @@ main >.inner {
 }
 #nav {
   position: fixed;
+  top: 0;
   z-index: 9;
   width: 100%;
   height: 3.125rem;
@@ -2585,13 +2681,10 @@ main >.inner {
   min-height: 3.125rem;
   max-height: 9.375rem;
   position: relative;
-  content-visibility: auto;
-  contain-intrinsic-size: 100vw 15vh;
 }
 @media (max-width: 820px) {
   .waves {
     height: 10vh;
-    contain-intrinsic-size: 100vw 10vh;
   }
 }
 .parallax>use {
@@ -3978,7 +4071,7 @@ use.stop-animation {
     flex-direction: column-reverse;
   }
   .widgets > div {
-    width: calc(100% - 1rem) !important;
+    width: 100% !important;
   }
 }
 .widgets ul {
