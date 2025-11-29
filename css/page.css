@@ -3019,6 +3019,12 @@ use.stop-animation {
 .social .item.wechat i {
   color: #09B83E;
 }
+.social .item.qq::before {
+  background-color: #12B7F5;
+}
+.social .item.qq i {
+  color: #12B7F5;
+}
 .social .item:focus i,
 .social .item:hover i {
   color: var(--grey-0);
